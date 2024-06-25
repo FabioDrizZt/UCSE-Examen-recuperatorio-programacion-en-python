@@ -100,7 +100,7 @@ Seleccione una opción: 2
 
 Seleccione una opción: 8
 
-Punto agregado correctamente.
+   Punto agregado correctamente.
 
 Seleccione una opción: 2
 
