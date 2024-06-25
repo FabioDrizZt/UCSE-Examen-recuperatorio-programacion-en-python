@@ -44,49 +44,73 @@ Diseñar un programa en Python para procesar las notas finales de los alumnos de
 ## Ejemplo de Entradas del Usuario y Comportamiento del Programa
 
 ```plaintext
-1. Ingrese cantidad de alumnos: 5
+Seleccione una opción: 1
+
+   Ingrese cantidad de alumnos: 5
    Ingrese las notas de los dos exámenes del alumno N°1: 10 9
    Ingrese las notas de los dos exámenes del alumno N°2: 7 8
    Ingrese las notas de los dos exámenes del alumno N°3: 2 10
    Ingrese las notas de los dos exámenes del alumno N°4: 9 8
    Ingrese las notas de los dos exámenes del alumno N°5: 4 8
 
-2. Alumno N°1: 9.5
+Seleccione una opción: 2
+
+   Alumno N°1: 9.5
    Alumno N°2: 7.5
    Alumno N°3: 6
    Alumno N°4: 8.5
    Alumno N°5: 6
 
-3. Ingrese las notas de los dos exámenes del alumno N°6: 5 4
+Seleccione una opción: 3
 
-2. Alumno N°1: 9.5
+   Ingrese las notas de los dos exámenes del alumno N°6: 5 4
+
+Seleccione una opción: 2
+
+   Alumno N°1: 9.5
    Alumno N°2: 7.5
    Alumno N°3: 6
    Alumno N°4: 8.5
    Alumno N°5: 6
    Alumno N°6: 4.5
 
-4. El promedio de notas obtenidas es: 7
+Seleccione una opción: 4
 
-5. La menor nota obtenida fue: 4.5
+   El promedio de notas obtenidas es: 7
 
-6. La cantidad de alumnos que obtuvieron notas elevadas es: 3
+Seleccione una opción: 5
 
-7. Primer alumno eliminado correctamente.
+   La menor nota obtenida fue: 4.5
 
-2. Alumno N°1: 7.5
+Seleccione una opción: 6
+
+   La cantidad de alumnos que obtuvieron notas elevadas es: 3
+
+Seleccione una opción: 7
+
+   Primer alumno eliminado correctamente.
+
+Seleccione una opción: 2
+
+   Alumno N°1: 7.5
    Alumno N°2: 6
    Alumno N°3: 8.5
    Alumno N°4: 6
    Alumno N°5: 4.5
 
-8. Punto agregado correctamente.
+Seleccione una opción: 8
 
-2. Alumno N°1: 7.5
+Punto agregado correctamente.
+
+Seleccione una opción: 2
+
+   Alumno N°1: 7.5
    Alumno N°2: 7
    Alumno N°3: 8.5
    Alumno N°4: 7
    Alumno N°5: 4.5
 
-0. Fin del Programa.
+Seleccione una opción: 0
+
+   Fin del Programa.
 ```
