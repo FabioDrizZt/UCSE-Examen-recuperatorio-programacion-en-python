@@ -1,4 +1,33 @@
 notas_finales = []
+notas_promediadas = []
+def cargar_notas():
+    cantidad_alumnos = int(input("Ingrese la cantidad de alumnos"))
+    for nota1, nota2 in range(cantidad_alumnos):
+        nota1 = int(input("ingresar la primera nota: "))
+        notas_finales.append(nota1)
+        nota2= int(input("ingresar la segunda nota: "))
+        notas_finales.append(nota2)
+    print()
+
+def mostrar_notas():
+    print(len(notas_finales))
+
+def agregar_nota():
+    nuevo_alumno = int(input("Ingresar las dos notas del nuevo alumno: "))
+    if nuevo_alumno < 10 and nuevo_alumno > 0:
+        notas_finales.append(nuevo_alumno)
+
+def visualizar_promedio():
+    promedio_total = sum(notas_promediadas)/len(notas_promediadas)
+    print(promedio_total)
+
+def ver_menor_nota():
+    minima_nota = min(notas_finales)
+    print(minima_nota)
+
+def ver_cantidad_notas_mayores_o_igual_7():
+    if notas_finales() <= 7:
+        print()
 
 while True:
     print("\n*** MENU DE OPCIONES ***")
@@ -13,7 +42,7 @@ while True:
     print("0. Salir.")
 
     opcion = int(input("Seleccione una opción: "))
-
+    
     if opcion == 1:
         cargar_notas(notas_finales)
     elif opcion == 2:
